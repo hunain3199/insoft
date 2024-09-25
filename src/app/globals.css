@@ -27,19 +27,19 @@ body {
     --card-foreground: 33.3 40% 12.2%; /* #212B36 (Dark blue-gray) */
     --popover: 243 244 246; /* Light Gray (#F3F4F6) */
     --popover-foreground: 33.3 40% 12.2%; /* #212B36 (Dark blue-gray) */
-    --primary: 30.0 69% 23.5%; /* #1E3A8A (Blue) */
+    --primary: 30 69% 23.5%; /* #1E3A8A (Blue) */
     --primary-foreground: 210 40% 98%; /* White */
     --secondary: 210 40% 96.1%; /* White */
     --secondary-foreground: 33.3 40% 12.2%; /* #212B36 (Dark blue-gray) */
     --muted: 243 244 246; /* Light Gray (#F3F4F6) */
     --muted-foreground: 215.4 16.3% 46.9%; /* #212B36 (Dark blue-gray) */
-    --accent: 30.0 69% 23.5%; /* #1E3A8A (Blue) */
+    --accent: 30 69% 23.5%; /* #1E3A8A (Blue) */
     --accent-foreground: 33.3 40% 12.2%; /* #212B36 (Dark blue-gray) */
-    --destructive: 30.0 69% 23.5%; /* #1E3A8A (Blue) */
+    --destructive: 30 69% 23.5%; /* #1E3A8A (Blue) */
     --destructive-foreground: 210 40% 98%; /* White */
     --border: 33.3 40% 12.2%; /* #212B36 (Dark blue-gray) */
     --input: 243 244 246; /* Light Gray (#F3F4F6) */
-    --ring: 30.0 69% 23.5%; /* #1E3A8A (Blue) */
+    --ring: 30 69% 23.5%; /* #1E3A8A (Blue) */
     --radius: 0.5rem;
   }
   .dark {
@@ -65,12 +65,12 @@ body {
     @apply text-4xl font-semibold text-primary; /* Lighter heading */
   }
   h2 {
-    @apply text-3xl font-medium text-secondary; /* Subheading with secondary color */
+    @apply text-3xl font-medium text-foreground; /* Subheading with secondary color */
   }
   h3 {
-    @apply text-2xl font-normal text-muted-foreground; /* Smaller heading with muted foreground color */
+    @apply text-2xl font-normal text-secondary; /* Smaller heading with muted foreground color */
   }
   p {
-    @apply text-base leading-relaxed text-foreground; /* Paragraph text with smaller size */
+    @apply text-base leading-relaxed text-muted-foreground; /* Paragraph text with smaller size */
   }
 }

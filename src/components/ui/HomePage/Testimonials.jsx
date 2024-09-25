@@ -20,7 +20,7 @@ const Testimonials = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
     pauseOnHover: false,
@@ -66,15 +66,15 @@ const Testimonials = () => {
                 <div className="flex max-w-[800px] sm:h-[230px] overflow-hidden flex-col gap-y-2 sm:gap-[24px] rounded-[10px] bg-white px-3 py-4 sm:p-[40px]">
                   <div className="flex items-center gap-[10px] sm:gap-[15px]">
                     <div>
-                      <h5 className="text-[16px] sm:text-[18px] font-[500] text-[#2555BB]">
+                      <h5 className="text-[16px] sm:text-[18px] font-[500] text-primary">
                         {testimonial.name}
                       </h5>
-                      <h6 className="text-[12px] sm:text-[16px] font-[500] text-[#808080]">
+                      <h6 className="text-[12px] sm:text-[16px] font-[500]">
                         {testimonial.role}
                       </h6>
                     </div>
                   </div>
-                  <p className="text-[10px] sm:text-[16px] w-full line-clamp-3 font-normal sm:leading-[26px] text-black/50">
+                  <p className="text-[10px] sm:text-[16px] w-full line-clamp-3 font-normal sm:leading-[26px]">
                     {testimonial.text}
                   </p>
                 </div>

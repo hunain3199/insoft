@@ -1,13 +1,18 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import React from 'react';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/Elements/dropdown-menu';
 
 const Footer = () => {
   return (
-    <footer className="relative z-10 bg-[#0A142F] sm:pt-20 lg:py-[60px] pb-3">
+    <footer className="relative z-10 bg-[#1b0606] sm:pt-20 lg:py-[60px] pb-3">
       <div className="container">
         <div className="flex flex-col items-center justify-center gap-4  sm:gap-20 ">
-          <div className="flex flex-col items-center justify-center  gap-5 sm:gap-14 text-white ">
+          <div className="flex flex-col items-center justify-center  gap-5 sm:gap-14 text-primary-foreground ">
             <Link
               className="flex w-fit items-center gap-0.5 py-3 lg:gap-2  "
               href="/"
@@ -20,20 +25,42 @@ const Footer = () => {
                 src="/assets/logo.png"
               />
             </Link>
-            <div class="flex w-full flex-wrap items-center justify-center gap-10 ">
-              <Link class="text-[13px] sm:text-lg font-medium" href="/">
+            <div className="flex w-full flex-wrap items-center justify-center gap-10 ">
+              <Link className="text-[13px] sm:text-lg font-medium" href="/">
                 Home
               </Link>
-              <Link class="text-[13px] sm:text-lg font-medium" href="/services">
-                Services
-              </Link>
-              <Link class="text-[13px] sm:text-lg font-medium" href="/about">
+
+              <DropdownMenu>
+                <DropdownMenuTrigger className="text-[13px] sm:text-lg font-medium">
+                  Services
+                </DropdownMenuTrigger>
+                <DropdownMenuContent>
+                  <DropdownMenuItem asChild>
+                    <Link href="/service/it-services">IT Services</Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/service/institute-services">
+                      Institute Services
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/service/co-working-space">
+                      Co-Working Space
+                    </Link>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+              <Link
+                className="text-[13px] sm:text-lg font-medium"
+                href="/about"
+              >
                 About Us
               </Link>
-              <Link class="text-[13px] sm:text-lg font-medium" href="/blogs">
-                Blogs
-              </Link>
-              <Link class="text-[13px] sm:text-lg font-medium" href="/contact">
+
+              <Link
+                className="text-[13px] sm:text-lg font-medium"
+                href="/contact"
+              >
                 Contact
               </Link>
             </div>
@@ -95,10 +122,10 @@ const Footer = () => {
           <div className="flex flex-wrap items-center justify-between gap-10 sm:gap-20 text-white/50">
             <p className="text-[12px] sm:text-lg font-medium">Copyright 2024</p>
             <div className="flex flex-wrap sm:gap-3.5 gap-1">
-              <p class="text-[12px] sm:text-lg font-medium">
+              <p className="text-[12px] sm:text-lg font-medium">
                 Terms &amp; Condition
               </p>
-              <p class="text-[12px] sm:text-lg font-medium">Privacy</p>
+              <p className="text-[12px] sm:text-lg font-medium">Privacy</p>
             </div>
           </div>
         </div>

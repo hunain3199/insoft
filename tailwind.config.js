@@ -7,56 +7,78 @@ module.exports = {
 	  "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
-	  extend: {
-		colors: {
-		  background: '#FFF9E8', // Light cream background
-		  foreground: '#212B36', // Dark blue-gray for text
-		  card: {
-			DEFAULT: '#FFF9E8', // Light cream for cards
-			foreground: '#212B36', // Dark blue-gray for card text
-		  },
-		  popover: {
-			DEFAULT: '#FFF9E8', // Light cream for popovers
-			foreground: '#212B36', // Dark blue-gray for popover text
-		  },
-		  primary: {
-			DEFAULT: '#a22b3d', // Maroon as the main theme color
-			foreground: '#FFF9E8', // Light cream text on maroon elements
-		  },
-		  secondary: {
-			DEFAULT: '#FFF9E8', // Light cream for secondary elements
-			foreground: '#a22b3d', // Maroon text on cream elements
-		  },
-		  muted: {
-			DEFAULT: '#E5D5C5', // Soft warm gray for muted elements
-			foreground: '#6E4C4B', // Warm taupe for muted text
-		  },
-		  accent: {
-			DEFAULT: '#6E4C4B', // Warm taupe as the new accent color
-			foreground: '#FFF9E8', // Light cream on accent elements
-		  },
-		  destructive: {
-			DEFAULT: '#6E4C4B', // Warm taupe for destructive actions
-			foreground: '#FFF9E8', // Light cream for destructive elements
-		  },
-		  border: '#a22b3d', // Maroon for borders
-		  input: '#FFF9E8', // Light cream for inputs
-		  ring: '#a22b3d', // Maroon for focus rings
-		  chart: {
-			'1': '#a22b3d', // Maroon for charts
-			'2': '#6E4C4B', // Warm taupe
-			'3': '#F3F4F6', // Light Gray
-			'4': '#FFF9E8', // Light cream
-			'5': '#212B36', // Dark blue-gray
-		  },
-		},
-		borderRadius: {
-		  lg: 'var(--radius)',
-		  md: 'calc(var(--radius) - 2px)',
-		  sm: 'calc(var(--radius) - 4px)',
-		},
-	  },
-	},
+    	extend: {
+    		colors: {
+    			background: '#FFF9E8',
+    			foreground: '#212B36',
+    			card: {
+    				DEFAULT: '#FFF9E8',
+    				foreground: '#212B36'
+    			},
+    			popover: {
+    				DEFAULT: '#FFF9E8',
+    				foreground: '#212B36'
+    			},
+    			primary: {
+    				DEFAULT: '#a22b3d',
+    				foreground: '#FFF9E8'
+    			},
+    			secondary: {
+    				DEFAULT: '#FFF9E8',
+    				foreground: '#a22b3d'
+    			},
+    			muted: {
+    				DEFAULT: '#E5D5C5',
+    				foreground: '#6E4C4B'
+    			},
+    			accent: {
+    				DEFAULT: '#6E4C4B',
+    				foreground: '#FFF9E8'
+    			},
+    			destructive: {
+    				DEFAULT: '#6E4C4B',
+    				foreground: '#FFF9E8'
+    			},
+    			border: '#a22b3d',
+    			input: '#FFF9E8',
+    			ring: '#a22b3d',
+    			chart: {
+    				'1': '#a22b3d',
+    				'2': '#6E4C4B',
+    				'3': '#F3F4F6',
+    				'4': '#FFF9E8',
+    				'5': '#212B36'
+    			}
+    		},
+    		borderRadius: {
+    			lg: 'var(--radius)',
+    			md: 'calc(var(--radius) - 2px)',
+    			sm: 'calc(var(--radius) - 4px)'
+    		},
+    		keyframes: {
+    			'accordion-down': {
+    				from: {
+    					height: '0'
+    				},
+    				to: {
+    					height: 'var(--radix-accordion-content-height)'
+    				}
+    			},
+    			'accordion-up': {
+    				from: {
+    					height: 'var(--radix-accordion-content-height)'
+    				},
+    				to: {
+    					height: '0'
+    				}
+    			}
+    		},
+    		animation: {
+    			'accordion-down': 'accordion-down 0.2s ease-out',
+    			'accordion-up': 'accordion-up 0.2s ease-out'
+    		}
+    	}
+    },
 	plugins: [require("tailwindcss-animate")],
   };
   

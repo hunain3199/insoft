@@ -14,10 +14,10 @@ const ServiceCard = ({ src, alt, title, description, width, height }) => {
         />
       </div>
       <div className="md:h-[80px] lg:h-[100px] flex flex-col justify-start items-center">
-        <h4 className="lg:mb-2.5 md:mb-1 text-[12px] sm:text-[14px] h-[30px] leading-tight w-[70%] sm:w-full font-semibold text-[#2555BB] lg:text-[22px]">
+        <h4 className="lg:mb-2.5 md:mb-1 text-[12px] sm:text-[14px] h-[30px] leading-tight w-[70%] sm:w-full font-semibold text-primary lg:text-[22px]">
           {title}
         </h4>
-        <p className="max-w-[341px] text-center text-[10px] sm:text-[12px] line-clamp-3 sm:line-clamp-none text-black/50 lg:text-[18px]">
+        <p className="max-w-[341px] text-center text-[10px] sm:text-[12px] line-clamp-3 sm:line-clamp-none lg:text-[18px]">
           {description}
         </p>
       </div>

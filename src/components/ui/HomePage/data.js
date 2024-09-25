@@ -398,3 +398,87 @@ export const testimonials = [
     text: "Cubicus.io's logo design solutions have helped elevate our brand image across multiple platforms.",
   },
 ];
+
+export const portfolioData = {
+  mobileApp: {
+    paragraph:
+      'Our mobile application development portfolio highlights our proficiency in developing user-friendly, high-quality, and intuitive mobile apps across multiple platforms, including Android and iOS.',
+    images: [
+      {
+        id: 0,
+        src: '/assets/portfolio/mobile-app/hair-product-ecommerce-app-mockup.png',
+        alt: 'Ecommerce Mobile App mockup',
+      },
+      {
+        id: 1,
+        src: '/assets/portfolio/mobile-app/hair-product-ecommerce-app-mockup.png',
+        alt: 'Ecommerce Mobile App mockup',
+      },
+      {
+        id: 2,
+        src: '/assets/portfolio/mobile-app/travel-ecommerce-app-mockup.png',
+        alt: 'Travel Mobile App mockup',
+      },
+    ],
+  },
+  webDesign: {
+    paragraph:
+      'Our web design portfolio showcases our expertise in creating visually stunning, responsive, and user-centered websites tailored to our clients’ needs.',
+    images: [
+      {
+        id: 3,
+        src: '/assets/portfolio/web-design/travel-website-mockup.png',
+        alt: 'Travel Website mockup',
+      },
+      {
+        id: 4,
+        src: '/assets/portfolio/web-design/ecommerce-website-mockup.png',
+        alt: 'Ecommerce Website mockup',
+      },
+    ],
+  },
+  saas: {
+    paragraph:
+      'We design scalable SaaS solutions that streamline business processes, focusing on efficiency, security, and excellent user experiences.',
+    images: [
+      {
+        id: 5,
+        src: '/assets/portfolio/saas/saas-dashboard-mockup.png',
+        alt: 'SaaS Dashboard mockup',
+      },
+    ],
+  },
+  blockchain: {
+    paragraph:
+      'Our blockchain development projects focus on secure, decentralized solutions for various industries, offering transparent and trustworthy platforms.',
+    images: [
+      {
+        id: 6,
+        src: '/assets/portfolio/blockchain/blockchain-app-mockup.png',
+        alt: 'Blockchain App mockup',
+      },
+    ],
+  },
+  eCommerce: {
+    paragraph:
+      'Our eCommerce development expertise helps businesses grow by providing seamless online shopping experiences with fast, secure, and scalable platforms.',
+    images: [
+      {
+        id: 7,
+        src: '/assets/portfolio/ecommerce/ecommerce-app-mockup.png',
+        alt: 'Ecommerce App mockup',
+      },
+    ],
+  },
+  graphicDesign: {
+    paragraph:
+      'Our graphic design portfolio demonstrates our creative ability to produce visually striking designs that communicate messages effectively.',
+    images: [
+      {
+        id: 8,
+        src: '/assets/portfolio/graphic-design/logo-mockup.png',
+        alt: 'Logo Design mockup',
+      },
+    ],
+  },
+};

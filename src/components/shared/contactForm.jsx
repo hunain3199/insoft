@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
-import { z } from "zod";
-import { FaMobile, FaMobileAlt } from "react-icons/fa";
+import { zodResolver } from '@hookform/resolvers/zod';
+import { useForm } from 'react-hook-form';
+import { z } from 'zod';
+import { FaMobile, FaMobileAlt } from 'react-icons/fa';
 
-import { toast } from "@/hooks/use-toast";
-import { Button } from "@/components/ui/button";
+import { toast } from '@/hooks/use-toast';
+import { Button } from '@/components/ui/Elements/button';
 import {
   Form,
   FormControl,
@@ -15,38 +15,41 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { Textarea } from "@/components/ui/textarea";
-import { Earth, Mail } from "lucide-react";
+} from '@/components/ui/Elements/form';
+import { Input } from '@/components/ui/Elements/input';
+import {
+  RadioGroup,
+  RadioGroupItem,
+} from '@/components/ui/Elements/radio-group';
+import { Textarea } from '@/components/ui/Elements/textarea';
+import { Earth, Mail } from 'lucide-react';
 
 const FormSchema = z.object({
   firstName: z.string().min(3, {
-    message: "first name must be at least 3 characters.",
+    message: 'first name must be at least 3 characters.',
   }),
   lastName: z.string().min(3, {
-    message: "last name  must be at least 3 characters.",
+    message: 'last name  must be at least 3 characters.',
   }),
   phoneNumber: z.string().min(10, {
-    message: "phone  must be at least 10 numbers.",
+    message: 'phone  must be at least 10 numbers.',
   }),
   email: z.string().min(10, {
-    message: "email must be at least 10 characters.",
+    message: 'email must be at least 10 characters.',
   }),
   type: z.enum(
-    ["webDesign", "appDesign", "blockChain", "graphicDesign", "others"],
+    ['webDesign', 'appDesign', 'blockChain', 'graphicDesign', 'others'],
     {
-      required_error: "You need to select a notification type.",
+      required_error: 'You need to select a notification type.',
     }
   ),
   bio: z
     .string()
     .min(10, {
-      message: "Bio must be at least 10 characters.",
+      message: 'Bio must be at least 10 characters.',
     })
     .max(160, {
-      message: "Bio must not be longer than 30 characters.",
+      message: 'Bio must not be longer than 30 characters.',
     }),
 });
 
@@ -59,7 +62,7 @@ const ContactForm = () => {
   const onSubmit = (data) => {
     // console.log(data);
     toast({
-      title: "You submitted the following values:",
+      title: 'You submitted the following values:',
       description: (
         <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
           <code className="text-white">{JSON.stringify(data, null, 2)}</code>
@@ -69,44 +72,41 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="md:flex flex-wrap w-full md-p-16 p-6 bg-primary-foreground rounded-2xl ">
-      <div className="md:w-2/5 bg-primary text-primary-foreground md:p-16 p-6 rounded-2xl space-y-2  ">
-        <h1 className="scroll-m-20 text-primary-foreground  tracking-tight ">
-          Contact Information
-        </h1>
-        <p className="leading-6 [&:not(:first-child)]:mt-2 text-primary-foreground/50 ">
-          Fill up the form and our Team will get back to you within 24 hours.
-        </p>
-        <ul className="space-y-5 text-primary-foreground py-10">
-          <li className="flex  items-center gap-2">
-            <div className="p-1  rounded-full bg-primary-foreground">
-              <FaMobileAlt className="text-primary" size={20} />
-            </div>{" "}
-            +00000000000
-          </li>
-          <li className="flex  items-center gap-2">
-            <div className="p-1  rounded-full bg-primary-foreground">
-              <Mail className="text-primary" size={20} />
-            </div>{" "}
-            +00000000000
-          </li>
-          <li className="flex  items-center gap-2">
-            <div className="p-1  rounded-full bg-primary-foreground">
-              <Earth className="text-primary" size={20}  />
-            </div>{" "}
-            +00000000000
-          </li>
-        </ul>
-      </div>
+    <div className="rounded-[20px] sm:rounded-[40px] lg:rounded-[80px] bg-primary-foreground p-10">
+      <div className="flex items-center xl:items-start justify-center sm:gap-10 gap-3 max-xl:flex-col-reverse">
+        <div className="bg-primary sm:rounded-[20px] rounded-[10px]   sm:px-14 px-7 py-4 mb-3 sm:mb-0  sm:py-8  xl:min-h-[770px] w-full xl:w-auto">
+          <h1 className="translate-[0.48px] text-[14px] sm:text-[18px] font-bold leading-[160%] text-white md:text-[24px]">
+            Contact Information
+          </h1>
+          <p className="translate-[0.32px] text-[12px] sm:text-[14px] leading-[160%]  text-[#ffffff99] md:text-[16px]">
+            Fill up the form and our Team will get back to you within 24 hours.
+          </p>
+          <ul className="mt-5 sm:mt-9 flex flex-col justify-start gap-2.5 sm:gap-5">
+            <li className="flex items-center justify-start  gap-2.5 sm:gap-5">
+              <div className="p-1  rounded-full bg-primary-foreground">
+                <FaMobileAlt className="text-primary" size={20} />
+              </div>{' '}
+              +00000000000
+            </li>
+            <li className="flex items-center justify-start  gap-2.5 sm:gap-5">
+              <div className="p-1  rounded-full bg-primary-foreground">
+                <Mail className="text-primary" size={20} />
+              </div>{' '}
+              +00000000000
+            </li>
+            <li className="flex items-center justify-start  gap-2.5 sm:gap-5">
+              <div className="p-1  rounded-full bg-primary-foreground">
+                <Earth className="text-primary" size={20} />
+              </div>{' '}
+              +00000000000
+            </li>
+          </ul>
+        </div>
 
-      <div className="md:w-3/5 px-10 py-10 w-full">
-        <div className="space-x-3  ">
-          <Form {...form} className={""}>
-            <form
-              onSubmit={form.handleSubmit(onSubmit)}
-              className="w-full space-y-6"
-            >
-              <div className="grid md:grid-cols-2 grid-col-1 gap-2 ">
+        <div className="flex flex-col lg:pt-7 w-full">
+          <Form {...form} className={''}>
+            <form onSubmit={form.handleSubmit(onSubmit)}>
+              <div className="grid md:grid-cols-2 grid-col-1 gap-5 ">
                 {/* first Name */}
                 <FormField
                   control={form.control}
@@ -163,12 +163,12 @@ const ContactForm = () => {
                     </FormItem>
                   )}
                 />
-              </div>{" "}
+              </div>{' '}
               <FormField
                 control={form.control}
                 name="type"
                 render={({ field }) => (
-                  <FormItem className="space-y-3">
+                  <FormItem className="mt-5">
                     <FormLabel>What service do you need&#63;</FormLabel>
                     <FormControl>
                       <RadioGroup
@@ -224,7 +224,7 @@ const ContactForm = () => {
                 control={form.control}
                 name="bio"
                 render={({ field }) => (
-                  <FormItem>
+                  <FormItem className="mt-5">
                     <FormLabel>Bio</FormLabel>
                     <FormControl>
                       <Textarea
@@ -241,7 +241,9 @@ const ContactForm = () => {
                   </FormItem>
                 )}
               />
-              <Button type="submit">Submit</Button>
+              <Button type="submit" className="mt-5">
+                Submit
+              </Button>
             </form>
           </Form>
         </div>

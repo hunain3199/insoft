@@ -7,11 +7,11 @@ const ServiceSection = () => {
         <h2 className="text-[20px] sm:text-[24px] font-semibold lg:text-[40px]">
           Transforming Visions into Digital Masterpieces
         </h2>
-        <h1 className="my-2 md:my-2.5 lg:mb-5 md:max-w-[950px] md:text-[16px] lg:text-[22px] mx-auto max-w-[300px] text-[12px] sm:text-[14px] font-semibold capitalize text-[#2555BB]">
+        <h1 className="my-2 md:my-2.5 lg:mb-5 md:max-w-[950px] md:text-[16px] lg:text-[22px] mx-auto max-w-[300px] text-[12px] sm:text-[14px] font-semibold capitalize">
           with our top-notch graphic designing, website development and
           blockchain services
         </h1>
-        <p className="font-medium w-full md:max-w-[795px] max-w-[250px] mx-auto text-[12px] sm:text-[14px] text-black/50 md:text-[14px] lg:text-[18px]">
+        <p className="font-medium w-full md:max-w-[795px] max-w-[250px] mx-auto text-[12px] sm:text-[14px] md:text-[14px] lg:text-[18px]">
           Cubicus envisions a world where technology becomes a decisive tool for
           every individual, leading to businesses thriving through innovation
           and users experiencing seamless, convenient digital interactions.
