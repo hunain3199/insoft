@@ -9,6 +9,7 @@ import SliderSection from '@/components/ui/HomePage/SliderSection';
 import Testimonials from '@/components/ui/HomePage/Testimonials';
 import UltimateServicesSection from '@/components/ui/HomePage/UltimateServicesSection';
 
+
 export default function Home() {
   return (
     <main className="bg-[#f9f9fb]">
