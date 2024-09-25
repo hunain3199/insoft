@@ -23,6 +23,7 @@ const Testimonials = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 768,
@@ -62,18 +63,18 @@ const Testimonials = () => {
           <Slider {...settings} className="py-[20px] sm:py-[70px]">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="sm:!w-[600px] px-1 sm:px-5">
-                <div className="flex max-w-[800px] sm:max-h-[300px] flex-col gap-y-2 sm:gap-[24px] rounded-[10px] bg-white px-3 py-4 sm:p-[40px]">
+                <div className="flex max-w-[800px] sm:h-[230px] overflow-hidden flex-col gap-y-2 sm:gap-[24px] rounded-[10px] bg-white px-3 py-4 sm:p-[40px]">
                   <div className="flex items-center gap-[10px] sm:gap-[15px]">
                     <div>
-                      <h5 className="text-[16px] sm:text-[18px] font-[500] text-[#3E66DF]">
+                      <h5 className="text-[16px] sm:text-[18px] font-[500] text-primary">
                         {testimonial.name}
                       </h5>
-                      <h6 className="text-[12px] sm:text-[16px] font-[500] text-[#808080]">
+                      <h6 className="text-[12px] sm:text-[16px] font-[500]">
                         {testimonial.role}
                       </h6>
                     </div>
                   </div>
-                  <p className="text-[10px] sm:text-[16px] w-[200px] sm:w-full line-clamp-3 sm:line-clamp-none font-normal sm:leading-[26px] text-black/50">
+                  <p className="text-[10px] sm:text-[16px] w-full line-clamp-3 font-normal sm:leading-[26px]">
                     {testimonial.text}
                   </p>
                 </div>

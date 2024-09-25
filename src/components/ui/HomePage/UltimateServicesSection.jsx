@@ -1,16 +1,19 @@
 import Image from 'next/image';
+import Link from 'next/link';
+
+import { Button } from '../Elements/button';
 import UltimateServiceCard from './Cards/UltimateServiceCard';
 import { ultimateServices } from './data';
 
 const UltimateServicesSection = () => {
   return (
-    <section className="container ">
+    <section className="container">
       <div className="mt-2 sm:mt-6 mb-2 text-center">
-        <h3 className="text-[20px] sm:text-[28px] font-bold md:text-[24px] lg:text-[40px]">
+        <h2 className="text-[20px] sm:text-[28px] font-bold md:text-[24px] lg:text-[40px]">
           Ultimate Services for your <br className="lg:block hidden" />{' '}
           Businesses
-        </h3>
-        <p className="max-w-[270px] sm:max-w-full mx-auto lg:mt-3 text-[12px] sm:text-[14px] font-medium text-black/50 md:text-[14px] lg:text-[18px]">
+        </h2>
+        <p className="max-w-[270px] sm:max-w-full mx-auto lg:my-3 text-[12px] sm:text-[14px] font-medium md:text-[14px] lg:text-[18px]">
           Discover the power of our comprehensive suite of digital services at
           Cubicus.io
         </p>
@@ -38,12 +41,9 @@ const UltimateServicesSection = () => {
         </div>
       </div>
       <div className="mx-auto flex w-[83%] sm:text-[14px] items-center justify-center md:w-full md:items-start lg:justify-start">
-        <a
-          className="mt:2 sm:mt-5 rounded-full bg-[#2555BB] px-3 lg:px-7 sm:px-5 sm:py-2.5 py-1.5 text-[10px] sm:text-xs font-bold capitalize text-white lg:block lg:text-lg"
-          href="/contact"
-        >
-          contact us
-        </a>
+        <Link href="/contact">
+          <Button>Contact Us</Button>
+        </Link>
       </div>
     </section>
   );

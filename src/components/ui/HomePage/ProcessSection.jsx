@@ -6,10 +6,10 @@ const ProcessSection = () => {
     <section className="container flex justify-center gap-16 text-start lg:py-5">
       <div>
         <div className="flex flex-col flex-wrap items-center justify-center">
-          <h3 className="text-center text-[24px] sm:text-[28px] font-semibold text-[#000] md:text-[28px] lg:text-[40px]">
+          <h2 className="text-center text-[24px] sm:text-[28px] font-semibold md:text-[28px] lg:text-[40px] py-2">
             Our Process
-          </h3>
-          <h4 className="mt-2 text-center sm:max-w-[795px] max-w-[280px] text-[14px] font-semibold text-[#2555BB] md:text-xl">
+          </h2>
+          <h4 className="mt-2 text-center sm:max-w-[795px] max-w-[280px] text-[14px] font-semibold text-primary md:text-xl">
             Strategic Digital Solutions, Seamless User Experiences
           </h4>
           <p className="my-2 max-w-[270px] mx-auto sm:my-2.5 lg:my-5 sm:max-w-[1110px] text-center text-[12px] sm:text-[14px] font-medium text-black/50 md:text-[16px] lg:text-[18px]">
