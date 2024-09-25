@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Button } from './button';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State to toggle menu
@@ -27,14 +28,14 @@ const Navbar = () => {
 
         {/* Hamburger menu */}
         <div className="lg:hidden z-50">
-          <button onClick={() => setIsOpen(!isOpen)}>
+          <Button onClick={() => setIsOpen(!isOpen)}>
             <Image
               src="/assets/hamburger.svg"
               width={24}
               height={24}
               loading="lazy"
             />
-          </button>
+          </Button>
         </div>
 
         {/* Links for large screens */}
@@ -91,6 +92,9 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+          <Button>
+            Login
+          </Button>
         </nav>
 
         {/* Contact Us button for large screens */}
