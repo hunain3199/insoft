@@ -51,7 +51,7 @@ const SliderSection = () => {
                                 src={item.src}
                               />
                             </div>
-                            <p className="mt-2 text-[12px] text-gray-700 md:text-[14px] lg:text-[16px] hidden sm:block">
+                            <p className="mt-2 text-[12px] text-black/50 md:text-[14px] lg:text-[16px] hidden sm:block">
                               {item.name}
                             </p>
                           </div>
@@ -71,7 +71,7 @@ const SliderSection = () => {
                                 src={item.src}
                               />
                             </div>
-                            <p className="mt-2 text-[12px] text-gray-700 md:text-[14px] lg:text-[16px] hidden sm:block">
+                            <p className="mt-2 text-[12px] text-black/50 md:text-[14px] lg:text-[16px] hidden sm:block">
                               {item.name}
                             </p>
                           </div>

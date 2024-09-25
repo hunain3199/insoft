@@ -6,7 +6,7 @@ const ProcessSection = () => {
     <section className="container flex justify-center gap-16 text-start lg:py-5">
       <div>
         <div className="flex flex-col flex-wrap items-center justify-center">
-          <h3 className="text-center text-[24px] sm:text-[28px] font-semibold text-[#000] md:text-[28px] lg:text-[40px]">
+          <h3 className="text-center text-[24px] sm:text-[28px] font-semibold md:text-[28px] lg:text-[40px]">
             Our Process
           </h3>
           <h4 className="mt-2 text-center sm:max-w-[795px] max-w-[280px] text-[14px] font-semibold text-[#2555BB] md:text-xl">

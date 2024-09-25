@@ -365,7 +365,7 @@ export const testimonials = [
   {
     name: 'Rachel Mitchell',
     role: 'Impactful Data Processing',
-    text: "Cubicus.io's proficiency in data processing is impressive. Their data scientist-friendly approach and integration of the latest technologies have significantly improved our capabilities.",
+    text: "Cubicus.io's proficiency in data processing is impressive. Their data scientist-friendly approach and integration of the latest technologies have significantly improved our capabilities. Cubicus.io's proficiency in data processing is impressive. Their data scientist-friendly approach and integration of the latest technologies have significantly improved our capabilities.",
   },
   {
     name: 'Emily Chen',

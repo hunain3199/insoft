@@ -39,7 +39,7 @@ const Navbar = () => {
 
         {/* Links for large screens */}
         <nav className="hidden lg:flex flex-1 justify-center">
-          <ul className="flex items-center gap-12 text-[#212B36] font-semibold">
+          <ul className="flex items-center gap-12 text-s[#637381] font-semibold">
             <li>
               <Link
                 className={`${
@@ -116,7 +116,7 @@ const Navbar = () => {
   border-opacity-50 bg-white px-6 py-4 top-full 
   transition-all duration-300 ease-in-out`}
       >
-        <ul className="block px-3">
+        <ul className="block px-3 text-[#637381]">
           {/* Contact Us Button on Mobile Menu */}
           <div className="block mb-3  ">
             <Link
@@ -130,7 +130,7 @@ const Navbar = () => {
           <li className="relative">
             <Link
               className={`flex py-2 text-[16px] font-bold hover:text-[#2555BB] ${
-                pathname === '/' ? 'text-[#2555BB]' : 'text-[#637381]'
+                pathname === '/' ? 'text-[#2555BB]' : ''
               }`}
               href="/"
               onClick={() => setIsOpen(false)}
@@ -141,7 +141,7 @@ const Navbar = () => {
           <li className="relative">
             <Link
               className={`flex py-2 text-[16px] font-bold hover:text-[#2555BB] ${
-                pathname === '/service' ? 'text-[#2555BB]' : 'text-[#637381]'
+                pathname === '/service' ? 'text-[#2555BB]' : ''
               }`}
               href="/service"
               onClick={() => setIsOpen(false)}
@@ -152,7 +152,7 @@ const Navbar = () => {
           <li className="relative">
             <Link
               className={`flex py-2 text-[16px] font-bold hover:text-[#2555BB] ${
-                pathname === '/about' ? 'text-[#2555BB]' : 'text-[#637381]'
+                pathname === '/about' ? 'text-[#2555BB]' : ''
               }`}
               href="/about"
               onClick={() => setIsOpen(false)}
@@ -163,7 +163,7 @@ const Navbar = () => {
           <li className="relative">
             <Link
               className={`flex py-2 text-[16px] font-bold hover:text-[#2555BB] ${
-                pathname === '/blogs' ? 'text-[#2555BB]' : 'text-[#637381]'
+                pathname === '/blogs' ? 'text-[#2555BB]' : ''
               }`}
               href="/blogs"
               onClick={() => setIsOpen(false)}
@@ -174,7 +174,7 @@ const Navbar = () => {
           <li className="relative">
             <Link
               className={`flex py-2 text-[16px] font-bold hover:text-[#2555BB] ${
-                pathname === '/contact' ? 'text-[#2555BB]' : 'text-[#637381]'
+                pathname === '/contact' ? 'text-[#2555BB]' : ''
               }`}
               href="/contact"
               onClick={() => setIsOpen(false)}
