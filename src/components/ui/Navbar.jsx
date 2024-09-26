@@ -95,8 +95,8 @@ const Navbar = () => {
             <li>
               <Link
                 className={`${
-                  pathname === '/' ? 'text-[#212B36]' : ''
-                } hover:text-[#212B36]`}
+                  pathname === '/' ? 'text-primary' : ''
+                } hover:text-primary`}
                 href="/"
               >
                 Home
@@ -106,8 +106,8 @@ const Navbar = () => {
               <DropdownMenu>
                 <DropdownMenuTrigger
                   className={`${
-                    pathname.startsWith('/service') ? 'text-[#212B36]' : ''
-                  } hover:text-[#212B36]`}
+                    pathname.startsWith('/service') ? 'text-primary' : ''
+                  } hover:text-primary`}
                 >
                   Services
                 </DropdownMenuTrigger>
@@ -131,8 +131,8 @@ const Navbar = () => {
             <li>
               <Link
                 className={`${
-                  pathname === '/about' ? 'text-[#212B36]' : ''
-                } hover:text-[#212B36]`}
+                  pathname === '/about' ? 'text-primary' : ''
+                } hover:text-primary`}
                 href="/about"
               >
                 About Us
@@ -142,8 +142,8 @@ const Navbar = () => {
             <li>
               <Link
                 className={`${
-                  pathname === '/contact' ? 'text-[#212B36]' : ''
-                } hover:text-[#212B36]`}
+                  pathname === '/contact' ? 'text-primary' : ''
+                } hover:text-primary`}
                 href="/contact"
               >
                 Contact
@@ -181,8 +181,8 @@ const Navbar = () => {
           </div>
           <li className="relative">
             <Link
-              className={`flex py-2 text-[16px] font-bold hover:text-[#212B36] ${
-                pathname === '/' ? 'text-[#212B36]' : ''
+              className={`flex py-2 text-[16px] font-bold hover:text-primary ${
+                pathname === '/' ? 'text-primary' : ''
               }`}
               href="/"
               onClick={() => setIsOpen(false)}
@@ -194,9 +194,9 @@ const Navbar = () => {
             <Accordion type="single" collapsible>
               <AccordionItem value="services" className="border-b-0">
                 <AccordionTrigger
-                  className={`flex py-0 text-[16px] font-bold hover:text-[#212B36] hover:no-underline ${
+                  className={`flex py-0 text-[16px] font-bold hover:text-primary hover:no-underline ${
                     pathname.startsWith('/service')
-                      ? 'text-[#212B36]'
+                      ? 'text-primary'
                       : 'text-muted-foreground'
                   }`}
                 >
@@ -218,8 +218,8 @@ const Navbar = () => {
           </li>
           <li className="relative">
             <Link
-              className={`flex py-2 text-[16px] font-bold hover:text-[#212B36] ${
-                pathname === '/about' ? 'text-[#212B36]' : ''
+              className={`flex py-2 text-[16px] font-bold hover:text-primary ${
+                pathname === '/about' ? 'text-primary' : ''
               }`}
               href="/about"
               onClick={() => setIsOpen(false)}
@@ -230,8 +230,8 @@ const Navbar = () => {
 
           <li className="relative">
             <Link
-              className={`flex py-2 text-[16px] font-bold hover:text-[#212B36] ${
-                pathname === '/contact' ? 'text-[#212B36]' : ''
+              className={`flex py-2 text-[16px] font-bold hover:text-primary ${
+                pathname === '/contact' ? 'text-primary' : ''
               }`}
               href="/contact"
               onClick={() => setIsOpen(false)}

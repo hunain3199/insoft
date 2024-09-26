@@ -406,12 +406,12 @@ export const portfolioData = {
     images: [
       {
         id: 0,
-        src: '/assets/portfolio/mobile-app/hair-product-ecommerce-app-mockup.png',
+        src: '/assets/portfolio/mobile-app/travel-ecommerce-app-mockup.png',
         alt: 'Ecommerce Mobile App mockup',
       },
       {
         id: 1,
-        src: '/assets/portfolio/mobile-app/hair-product-ecommerce-app-mockup.png',
+        src: '/assets/portfolio/mobile-app/travel-ecommerce-app-mockup.png',
         alt: 'Ecommerce Mobile App mockup',
       },
       {
@@ -421,7 +421,7 @@ export const portfolioData = {
       },
     ],
   },
-  webDesign: {
+  website: {
     paragraph:
       'Our web design portfolio showcases our expertise in creating visually stunning, responsive, and user-centered websites tailored to our clients’ needs.',
     images: [
@@ -461,7 +461,7 @@ export const portfolioData = {
   },
   eCommerce: {
     paragraph:
-      'Our eCommerce development expertise helps businesses grow by providing seamless online shopping experiences with fast, secure, and scalable platforms.',
+      'Our E-Commerce development expertise helps businesses grow by providing seamless online shopping experiences with fast, secure, and scalable platforms.',
     images: [
       {
         id: 7,
@@ -470,7 +470,7 @@ export const portfolioData = {
       },
     ],
   },
-  graphicDesign: {
+  graphic: {
     paragraph:
       'Our graphic design portfolio demonstrates our creative ability to produce visually striking designs that communicate messages effectively.',
     images: [
@@ -481,4 +481,240 @@ export const portfolioData = {
       },
     ],
   },
+};
+
+export const itServiceData = {
+  mobileApp: [
+    {
+      id: 0,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 1,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 2,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 3,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 4,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 5,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+  ],
+
+  website: [
+    {
+      id: 6,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 7,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 8,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 9,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 10,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 11,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+  ],
+
+  saas: [
+    {
+      id: 12,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 13,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 14,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 15,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 16,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 17,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+  ],
+
+  blockchain: [
+    {
+      id: 18,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 19,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 20,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 21,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 22,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 23,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+  ],
+
+  eCommerce: [
+    {
+      id: 24,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 25,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 26,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 27,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 28,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 29,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+  ],
+
+  graphic: [
+    {
+      id: 30,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 31,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 32,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 33,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 34,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+    {
+      id: 35,
+      name: 'Travel App',
+      info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
+      src: '/assets/itservice.avif',
+    },
+  ],
 };

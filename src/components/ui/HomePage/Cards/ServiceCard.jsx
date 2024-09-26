@@ -3,7 +3,7 @@ import Image from 'next/image';
 const ServiceCard = ({ src, alt, title, description, width, height }) => {
   return (
     <div className="flex flex-col items-center sm:justify-center justify-start">
-      <div className="mb-2 lg:mb-7 flex h-18 w-18 md:h-[4rem] md:w-[4rem] lg:h-24 lg:w-24 items-center justify-center rounded-full sm:bg-[#F0EEFF]">
+      <div className="mb-2 lg:mb-7 flex h-[2rem] w-[2rem] md:h-[4rem] md:w-[4rem] lg:h-24 lg:w-24 items-center justify-center rounded-full bg-[#F0EEFF]">
         <Image
           loading="lazy"
           alt={alt}
