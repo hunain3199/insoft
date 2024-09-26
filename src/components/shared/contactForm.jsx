@@ -115,7 +115,7 @@ const ContactForm = () => {
                     <FormItem>
                       <FormLabel>First Name</FormLabel>
                       <FormControl>
-                        <Input placeholder="Andrew" {...field} />
+                        <Input placeholder="Enter your First Name" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -129,7 +129,7 @@ const ContactForm = () => {
                     <FormItem>
                       <FormLabel>Last Name</FormLabel>
                       <FormControl>
-                        <Input placeholder="bravo" {...field} />
+                        <Input placeholder="Enter your Last Name" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -143,7 +143,11 @@ const ContactForm = () => {
                     <FormItem>
                       <FormLabel>Phone Number</FormLabel>
                       <FormControl>
-                        <Input type="number" {...field} />
+                        <Input
+                          type="number"
+                          placeholder="Enter your Phone Number"
+                          {...field}
+                        />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -157,13 +161,17 @@ const ContactForm = () => {
                     <FormItem>
                       <FormLabel> Email</FormLabel>
                       <FormControl>
-                        <Input type="email" {...field} />
+                        <Input
+                          type="email"
+                          placeholder="Enter your Email"
+                          {...field}
+                        />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
                   )}
                 />
-              </div>{' '}
+              </div>
               <FormField
                 control={form.control}
                 name="type"

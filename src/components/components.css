@@ -57,3 +57,32 @@
     position: none;
   }
 }
+
+/* Custom Scrollbar for WebKit Browsers (Chrome, Safari, Edge) */
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 8px; /* Height for horizontal scrollbar */
+  border-radius: 10px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: blue; /* Background of the scrollbar track */
+  border-radius: 10px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: blue; /* Scrollbar color */
+  border-radius: 10px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: blue; /* Hover color of the scrollbar */
+  border-radius: 10px;
+}
+
+/* For Firefox */
+.scrollbar-custom {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: blue #f1f1f1; /* Scrollbar thumb and track colors */
+  border-radius: 10px;
+}

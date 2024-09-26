@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/Elements/button';
 import Wrapper from '@/components/shared/Wrapper';
 
-export default function Home() {
+const About = () => {
   return (
     <Wrapper>
       <section className="pb-5 lg:pb-28 pt-[30px]">
@@ -152,4 +152,5 @@ export default function Home() {
       </section>
     </Wrapper>
   );
-}
+};
+export default About;

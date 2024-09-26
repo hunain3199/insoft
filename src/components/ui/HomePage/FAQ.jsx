@@ -7,7 +7,7 @@ import {
 
 const FAQ = () => {
   return (
-    <section className="container flex flex-col items-center justify-center   pb-3 sm:py-6 text-center lg:w-[1055px]">
+    <section className="container flex flex-col items-center justify-center py-3 sm:py-6 text-center lg:w-[1055px]">
       <h4 class=" text-[24px]  sm:text-[28px] font-semibold md:text-[28px] lg:text-[40px]">
         Frequently Asked Questions
       </h4>
@@ -18,16 +18,16 @@ const FAQ = () => {
         <br class="hidden lg:block" />
         Got questions? We've got answers.
       </p>
-      <div className="lg:w-[840px]">
+      <div className="w-full lg:w-[840px]">
         <Accordion type="single" collapsible>
           <AccordionItem
             value="item-1"
-            className="border-b-0 mb-6 bg-white py-3 px-8 rounded-3xl"
+            className="border-b-0 mb-6 bg-white rounded-3xl px-4 py-3 "
           >
-            <AccordionTrigger className="text-primary hover:no-underline">
+            <AccordionTrigger className="text-primary hover:no-underline text-[10px] sm:text-[12px] md:text-[14] lg:text-[18px] leading-3">
               What services does Cubicus.io offer?
             </AccordionTrigger>
-            <AccordionContent className="text-justify">
+            <AccordionContent className="text-justify text-[10px] sm:text-[12px] md:text-[14px] lg:text-[18px] leading-4">
               Cubicus.io offers a wide range of services including mobile app
               development, website designing, SaaS development, blockchain
               development, e-commerce solutions, digital marketing and graphic
@@ -38,48 +38,48 @@ const FAQ = () => {
         <Accordion type="single" collapsible>
           <AccordionItem
             value="item-1"
-            className="border-b-0 mb-6 bg-white py-3 px-8 rounded-3xl"
+            className="border-b-0 mb-6 bg-white rounded-3xl px-4 py-3 "
           >
-            <AccordionTrigger className="text-primary hover:no-underline">
-              How experienced is Cubicus.io in software development?
+            <AccordionTrigger className="text-primary hover:no-underline text-[10px] sm:text-[12px] md:text-[14] lg:text-[18px] leading-3">
+              What services does Cubicus.io offer?
             </AccordionTrigger>
-            <AccordionContent className="text-justify">
-              With over five years of experience in the industry, Cubicus.io has
-              a team of skilled professionals who are experts in their
-              respective fields, ensuring top-notch quality andreliability in
-              all our projects.
+            <AccordionContent className="text-justify text-[10px] sm:text-[12px] md:text-[14px] lg:text-[18px] leading-4">
+              Cubicus.io offers a wide range of services including mobile app
+              development, website designing, SaaS development, blockchain
+              development, e-commerce solutions, digital marketing and graphic
+              designing.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
         <Accordion type="single" collapsible>
           <AccordionItem
             value="item-1"
-            className="border-b-0 mb-6 bg-white py-3 px-8 rounded-3xl"
+            className="border-b-0 mb-6 bg-white rounded-3xl px-4 py-3 "
           >
-            <AccordionTrigger className="text-primary hover:no-underline">
-              Can Cubicus.io handle custom software development projects?
+            <AccordionTrigger className="text-primary hover:no-underline text-[10px] sm:text-[12px] md:text-[14] lg:text-[18px] leading-3">
+              What services does Cubicus.io offer?
             </AccordionTrigger>
-            <AccordionContent className="text-justify">
-              Yes, Cubicus.io specializes in custom software development
-              tailored to the unique needs and requirements of each client. From
-              concept to deployment, we work closely withour clients to deliver
-              bespoke solutions that drive success.
+            <AccordionContent className="text-justify text-[10px] sm:text-[12px] md:text-[14px] lg:text-[18px] leading-4">
+              Cubicus.io offers a wide range of services including mobile app
+              development, website designing, SaaS development, blockchain
+              development, e-commerce solutions, digital marketing and graphic
+              designing.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
         <Accordion type="single" collapsible>
           <AccordionItem
             value="item-1"
-            className="border-b-0 mb-6 bg-white py-3 px-8 rounded-3xl"
+            className="border-b-0 mb-6 bg-white rounded-3xl px-4 py-3 "
           >
-            <AccordionTrigger className="text-primary hover:no-underline">
-              What technologies does Cubicus.io work with?
+            <AccordionTrigger className="text-primary hover:no-underline text-[10px] sm:text-[12px] md:text-[14] lg:text-[18px] leading-3">
+              What services does Cubicus.io offer?
             </AccordionTrigger>
-            <AccordionContent className="text-justify">
-              Cubicus.io leverages a wide array of cutting-edge technologies
-              including but not limited to React.js, Vue.js, WordPress, Magento,
-              Swift, Python, Java, and many more to deliver innovative and
-              scalable solutions.
+            <AccordionContent className="text-justify text-[10px] sm:text-[12px] md:text-[14px] lg:text-[18px] leading-4">
+              Cubicus.io offers a wide range of services including mobile app
+              development, website designing, SaaS development, blockchain
+              development, e-commerce solutions, digital marketing and graphic
+              designing.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
