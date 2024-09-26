@@ -1,5 +1,6 @@
 import React from 'react';
 import Wrapper from '@/components/shared/Wrapper';
+import CoWorkingForm from '@/components/ui/CoWorkingPage/CoWorkingForm';
 const CoWorkingSpace = () => {
   return (
     <Wrapper>
@@ -16,6 +17,9 @@ const CoWorkingSpace = () => {
               interactions.
             </p>
           </div>
+        </div>
+        <div className="rounded-[20px] sm:rounded-[40px] lg:rounded-[80px] bg-primary-foreground p-10">
+          <CoWorkingForm />
         </div>
       </section>
     </Wrapper>

@@ -27,7 +27,7 @@ const FAQ = () => {
             <AccordionTrigger className="text-primary hover:no-underline text-[10px] sm:text-[12px] md:text-[14] lg:text-[18px] leading-3">
               What services does Cubicus.io offer?
             </AccordionTrigger>
-            <AccordionContent className="text-justify text-[10px] sm:text-[12px] md:text-[14px] lg:text-[18px] leading-4">
+            <AccordionContent className="text-justify text-[10px] sm:text-[12px] md:text-[14px] lg:text-[18px] leading-7">
               Cubicus.io offers a wide range of services including mobile app
               development, website designing, SaaS development, blockchain
               development, e-commerce solutions, digital marketing and graphic
@@ -43,7 +43,7 @@ const FAQ = () => {
             <AccordionTrigger className="text-primary hover:no-underline text-[10px] sm:text-[12px] md:text-[14] lg:text-[18px] leading-3">
               What services does Cubicus.io offer?
             </AccordionTrigger>
-            <AccordionContent className="text-justify text-[10px] sm:text-[12px] md:text-[14px] lg:text-[18px] leading-4">
+            <AccordionContent className="text-justify text-[10px] sm:text-[12px] md:text-[14px] lg:text-[18px] leading-7">
               Cubicus.io offers a wide range of services including mobile app
               development, website designing, SaaS development, blockchain
               development, e-commerce solutions, digital marketing and graphic
@@ -59,7 +59,7 @@ const FAQ = () => {
             <AccordionTrigger className="text-primary hover:no-underline text-[10px] sm:text-[12px] md:text-[14] lg:text-[18px] leading-3">
               What services does Cubicus.io offer?
             </AccordionTrigger>
-            <AccordionContent className="text-justify text-[10px] sm:text-[12px] md:text-[14px] lg:text-[18px] leading-4">
+            <AccordionContent className="text-justify text-[10px] sm:text-[12px] md:text-[14px] lg:text-[18px] leading-7">
               Cubicus.io offers a wide range of services including mobile app
               development, website designing, SaaS development, blockchain
               development, e-commerce solutions, digital marketing and graphic
@@ -75,7 +75,7 @@ const FAQ = () => {
             <AccordionTrigger className="text-primary hover:no-underline text-[10px] sm:text-[12px] md:text-[14] lg:text-[18px] leading-3">
               What services does Cubicus.io offer?
             </AccordionTrigger>
-            <AccordionContent className="text-justify text-[10px] sm:text-[12px] md:text-[14px] lg:text-[18px] leading-4">
+            <AccordionContent className="text-justify text-[10px] sm:text-[12px] md:text-[14px] lg:text-[18px] leading-7">
               Cubicus.io offers a wide range of services including mobile app
               development, website designing, SaaS development, blockchain
               development, e-commerce solutions, digital marketing and graphic
