@@ -16,7 +16,12 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/Elements/accordion';
-
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from 'react-icons/fa';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State to toggle menu
   const pathname = usePathname();
@@ -24,42 +29,18 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 left-0 z-40 w-full bg-white shadow-lg">
       <div className="items-start justify-end w-full bg-primary hidden lg:flex px-8">
-        <div class="flex items-center justify-start gap-2">
+        <div class="flex items-center justify-start gap-5 py-2 text-xl">
           <Link href="/">
-            <Image
-              alt="social-icon"
-              loading="lazy"
-              width={40}
-              height={40}
-              src="/assets/facebook.png"
-            />
+            <FaFacebookF />
           </Link>
           <Link href="/">
-            <Image
-              alt="social-icon"
-              loading="lazy"
-              width={40}
-              height={40}
-              src="/assets/instagram.png"
-            />
+            <FaInstagram />
           </Link>
           <Link href="/">
-            <Image
-              alt="social-icon"
-              loading="lazy"
-              width={40}
-              height={40}
-              src="/assets/linkedin.png"
-            />
+            <FaLinkedin />
           </Link>
           <Link href="/">
-            <Image
-              alt="social-icon"
-              loading="lazy"
-              width={40}
-              height={40}
-              src="/assets/twitter.png"
-            />
+            <FaTwitter />
           </Link>
         </div>
       </div>
@@ -204,11 +185,22 @@ const Navbar = () => {
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="flex flex-col space-y-2">
-                    <Link href="/service/it-services">IT Services</Link>
-                    <Link href="/service/institute-services">
+                    <Link
+                      href="/service/it-services"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      IT Services
+                    </Link>
+                    <Link
+                      href="/service/institute-services"
+                      onClick={() => setIsOpen(false)}
+                    >
                       Institute Services
                     </Link>
-                    <Link href="/service/co-working-space">
+                    <Link
+                      href="/service/co-working-space"
+                      onClick={() => setIsOpen(false)}
+                    >
                       Co-Working Space
                     </Link>
                   </div>

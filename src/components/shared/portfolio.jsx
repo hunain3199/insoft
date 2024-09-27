@@ -9,7 +9,7 @@ import { portfolioData } from '../ui/HomePage/data';
 
 const Portfolio = () => {
   return (
-    <section className="justify-center items-center mx-auto">
+    <section className="justify-center items-center mx-auto w-full">
       <Tabs defaultValue="mobileApp">
         {/* TabsList for tab navigation */}
         <TabsList
