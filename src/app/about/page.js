@@ -8,18 +8,24 @@ const About = () => {
       <section className="pb-5 lg:pb-28 pt-[30px]">
         <div className="container ">
           <h1 className="text-center text-[18px]  sm:text-[24] font-bold capitalize leading-[120%] md:text-[28px] lg:text-[48px]">
-            About Us
+            {
+              `About Us`
+            }
           </h1>
           <p className="font-Inter my-2 sm:my-1 text-center text-[12px] md:text-[14px] font-medium sm:leading-[160%] leading-4 tracking-[0.36px] text-[#000000]/80 lg:text-[18px]">
-            Welcome to Cubicus, where innovation meets technology to shape the
-            future!
+           {
+            ` Welcome to Cubicus where innovation meets technology to shape the
+            future!`
+           }
           </p>
           <div className="mx-auto max-w-[920px] font-medium text-[14px] tracking-[2%] text-center lg:leading-[28.8px] md:text-[14px] lg:text-[18px] ">
             <div className="w-full">
               <p className="text-[10px] md:text-[14px] lg:text-[16px] sm:max-w-full max-w-[250px] mx-auto">
-                Cubicus.io is more than just another software company; we are a
+                {
+                  `Cubicus.io is more than just another software company; we are a
                 dynamic and forward-thinking corporation founded in 2020 with a
-                defined objective.
+                defined objective.`
+                }
               </p>
             </div>
           </div>
@@ -34,13 +40,13 @@ const About = () => {
             </div>
             <div className="sm:w-[60%] sm:pl-10 sm:border-l-4">
               <p className="text-[10px] tracking-[2%] font-medium lg:leading-[28.8px] md:text-[14px] text-center lg:text-left lg:text-[18px]">
-                The term "Cubicus" represents our dedication to all aspects of
+               {` The term "Cubicus" represents our dedication to all aspects of
                 technology, much like a cubical building surrounded by its
                 corners. It is more than simply a software company; it is a
                 theory. It is about developing a brand that brings together many
                 nodes, connects them to a common platform, and promotes
                 cooperation and creativity. We are here to make ideas a reality
-                by merging different components into a single cohesive unit.
+                by merging different components into a single cohesive unit.`}
               </p>
             </div>
           </div>
@@ -51,9 +57,11 @@ const About = () => {
               Our Vision
             </h2>
             <p className="font-[500] px-3 lg:leading-[28px] tracking-[2%] max-w-[910px] text-[12px] md:text-[14px] lg:text-[18px] text-center">
-              Our vision is to build a solid company with highly skilled and
+              {
+                `Our vision is to build a solid company with highly skilled and
               devoted people. At Cubicus.io, we believe in using technology to
-              build solutions with long-term effects.
+              build solutions with long-term effects.`
+              }
             </p>
           </div>
           <div className="max-w-[929px] mx-auto flex flex-col justify-center items-center my-2 sm:my-5">
@@ -62,9 +70,9 @@ const About = () => {
             </h2>
             <p className="font-[500] px-3 lg:leading-[28px] tracking-[2%] max-w-[910px] text-[12px] md:text-[14px] lg:text-[18px] text-center">
               Our objective is to create a brand that moves beyond traditional
-              limits. Cubicus.io is more than simply a website; it's a platform
+              limits. Cubicus.io is more than simply a website its a platform
               for creativity and technology. We want to create an environment in
-              which ideas converge, ideas thrive, and solutions&nbsp;develop.
+              which ideas converge ideas thrive and solutions&nbsp;develop.
             </p>
           </div>
           <div className="flex justify-center items-center md:w-auto w-full">
@@ -90,7 +98,7 @@ const About = () => {
             </div>
             <div className="w-full sm:w-[50%] sm:pl-12">
               <h2 className="text-[14px] py-2 sm:py-3 sm:text-[24px] text-center lg:text-left md:text-[28px] lg:leading-[56px] md:leading-9 font-[600] lg:text-[40px]">
-                You guessed it. We’re changing the game.
+                You guessed it. We re changing the game.
               </h2>
             </div>
           </div>
