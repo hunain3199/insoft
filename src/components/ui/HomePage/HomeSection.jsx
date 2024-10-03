@@ -4,7 +4,7 @@ import { Button } from '../Elements/button';
 
 const HomeSection = () => {
   return (
-    <section className="container sm:px-0 px-5 relative overflow-hidden pt-[30px]">
+    <section className="px-2 sm:px-0  relative overflow-hidden ">
       <div className="mx-auto flex justify-between  items-center max-lg:flex-col">
         <div className="-mx-3  sm:-mx-4 flex flex-wrap items-center">
           <div className="w-fit px-3 sm:px-4">

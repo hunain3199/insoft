@@ -13,13 +13,13 @@ const Portfolio = () => {
       <Tabs defaultValue="mobileApp">
         {/* TabsList for tab navigation */}
         <TabsList
-          className={`h-fit flex overflow-x-auto p-1 whitespace-nowrap justify-between scroll-smooth scrollbar-custom`}
+          className={`h-fit flex flex-wrap md:flex-nowrap overflow-x-auto p-1 `}
         >
           {Object.keys(portfolioData).map((key) => (
             <TabsTrigger
               key={key}
               value={key}
-              className="text-[12px] sm:text-[16px]"
+              className="text-[12px] md:text-[16px] md:flex flex-wrap  "
             >
               {key.charAt(0).toUpperCase() + key.slice(1)}
             </TabsTrigger>

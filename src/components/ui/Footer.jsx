@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="relative z-10 bg-[#1b0606] sm:pt-20 lg:py-[60px] pb-3">
+    <footer className="relative z-10 bg-[#0a142f] sm:pt-20 lg:py-[60px] py-5">
       <div className="container">
         <div className="flex flex-col items-center justify-center gap-4  sm:gap-20 ">
           <div className="flex flex-col items-center justify-center  gap-5 sm:gap-14 text-primary-foreground ">
@@ -119,13 +119,13 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-wrap items-center justify-between gap-10 sm:gap-20 text-white/50">
-            <p className="text-[12px] sm:text-lg font-medium">Copyright 2024</p>
-            <div className="flex flex-wrap sm:gap-3.5 gap-1">
-              <p className="text-[12px] sm:text-lg font-medium">
+          <div className="flex flex-wrap items-center justify-between gap-10 sm:gap-20">
+            <p className="text-[14px] sm:text-lg font-semibold  text-gray-400/80">Copyright 2024</p>
+            <div className="flex flex-wrap sm:gap-3.5 gap-1 text-gray-400">
+              <p className="text-[14px] sm:text-lg font-semibold  text-gray-400/80">
                 Terms &amp; Condition
               </p>
-              <p className="text-[12px] sm:text-lg font-medium">Privacy</p>
+              <p className="text-[14px] sm:text-lg font-semibold  text-gray-400/80">Privacy</p>
             </div>
           </div>
         </div>
