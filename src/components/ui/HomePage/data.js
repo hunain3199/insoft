@@ -487,7 +487,7 @@ export const itServiceData = {
   mobileApp: [
     {
       id: 0,
-      name: 'Travel App',
+      name: 'Graphics',
       info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
       src: '/assets/itservice.avif',
     },
@@ -526,7 +526,7 @@ export const itServiceData = {
   website: [
     {
       id: 6,
-      name: 'Travel App',
+      name: 'website',
       info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
       src: '/assets/itservice.avif',
     },
@@ -565,7 +565,7 @@ export const itServiceData = {
   saas: [
     {
       id: 12,
-      name: 'Travel App',
+      name: 'saas',
       info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
       src: '/assets/itservice.avif',
     },
@@ -604,7 +604,7 @@ export const itServiceData = {
   blockchain: [
     {
       id: 18,
-      name: 'Travel App',
+      name: 'Blockchain',
       info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
       src: '/assets/itservice.avif',
     },
@@ -643,7 +643,7 @@ export const itServiceData = {
   eCommerce: [
     {
       id: 24,
-      name: 'Travel App',
+      name: 'ecommerce',
       info: 'Creating immersive travel apps that enhance your journey with seamless booking, itinerary planning, and exploration features.',
       src: '/assets/itservice.avif',
     },
@@ -718,3 +718,4 @@ export const itServiceData = {
     },
   ],
 };
+
